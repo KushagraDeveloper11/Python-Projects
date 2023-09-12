@@ -1,0 +1,1 @@
+paddle.goto(360, 0)
