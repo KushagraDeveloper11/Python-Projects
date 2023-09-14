@@ -29,7 +29,7 @@ class Update(Turtle):
     def reset(self):
         if self.score > self.high_score:
             self.high_score= self.score
-            with open("data.txt", mode="w") as data:
+            with open("Day 15+\day 20-21 Snake\data.txt", mode="w") as data:
                 data.write(f"{self.score}")
         self.score=0
         self.update_score()
